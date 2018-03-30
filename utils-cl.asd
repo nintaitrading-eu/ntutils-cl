@@ -9,9 +9,8 @@
                #:inferior-shell)
   :serial t
   :components ((:file "package")
-               (:file "functions")
-               (:file "utils-cl/utils-string")
-               (:file "utils-cl/utils-file")
-               (:file "utils-cl" :depends-on ("package" "functions" "utils-cl/utils-string" "utils-cl/utils-file"))
+               (:file "utils-string")
+               (:file "utils-file")
+               ;(:file "utils-cl" :depends-on ("package" "utils-string" "utils-file"))
                ))
 

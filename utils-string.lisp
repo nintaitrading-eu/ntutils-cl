@@ -3,7 +3,7 @@
 ;;;; File that contains general functions, related to string manipulation.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(in-package :utils-cl) ; Note: was the top-package, from which it was called... testing needed.
+(in-package :utils-cl)
 
 (defun split-list-of-strings (a-list-of-strings a-delimiter)
   "Gets a list of <delimiter>-separated strings and turns it into a list of a list of strings."

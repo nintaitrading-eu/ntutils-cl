@@ -3,7 +3,7 @@
 ;;;; File that contains general functions, related to file manipulation.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(in-package :utils-cl) ; Note: was the top-package, from which it was called... testing needed.
+(in-package :utils-cl)
 
 (defun my-read-lines (a-file)
   "Read the lines of a file."
