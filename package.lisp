@@ -2,5 +2,6 @@
 
 (defpackage #:utils-cl
   (:use #:cl)
-  (:export my-getenv))
+  ;(:export my-getenv)
+  )
 (in-package #:utils-cl)
