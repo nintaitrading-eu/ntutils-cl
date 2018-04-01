@@ -1,11 +1,11 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; utils-string.lisp:
+;;;; ntutils-string.lisp:
 ;;;; File that contains general functions, related to string manipulation.
 ;;;;
 ;;;; See LICENSE.txt for license information.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(in-package :utils-cl)
+(in-package :ntutils)
 
 (defun split-list-of-strings (a-list-of-strings a-delimiter)
   "Gets a list of <delimiter>-separated strings and turns it into a list of a list of strings."

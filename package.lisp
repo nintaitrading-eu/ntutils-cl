@@ -1,7 +1,7 @@
 ;;;; package.lisp
 
-(defpackage #:utils-cl
+(defpackage #:ntutils
   (:use #:cl)
   ;(:export my-getenv)
   )
-(in-package #:utils-cl)
+(in-package #:ntutils)

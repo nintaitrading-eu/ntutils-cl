@@ -1,11 +1,11 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; utils-file.lisp:
+;;;; ntutils-file.lisp:
 ;;;; File that contains general functions, related to file manipulation.
 ;;;; 
 ;;;; See LICENSE.txt for license information.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(in-package :utils-cl)
+(in-package :ntutils)
 
 (defun my-read-lines (a-file)
   "Read the lines of a file."

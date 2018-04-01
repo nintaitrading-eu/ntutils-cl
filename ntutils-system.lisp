@@ -1,5 +1,5 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; utils-system.lisp:
+;;;; ntutils-system.lisp:
 ;;;; File that contains general functions, related to system utils.
 ;;;; This includes, but is not limited to:
 ;;;; executing shell commands
@@ -7,7 +7,7 @@
 ;;;; See LICENSE.txt for license information.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(in-package :utils-cl)
+(in-package :ntutils)
 
 (defun run-command (a-command-pipe)
   "This function runs a shell command, via inferior-shell."
