@@ -9,9 +9,13 @@
 
 (in-package :ntutils)
 
-(defun run-command (a-command-pipe)
+(defun run-command-sh (a-command-pipe)
   "This function runs a shell command, via inferior-shell."
   (inferior-shell:run/ss `(inferior-shell:pipe (,a-command-pipe))))
+
+(defun run-command-cl (a-cl-string)
+  "This function evaluates a string, containing common lisp code and runs the code."
+  (eval a-cl-string))
 
 ; TODO: Open in default browser.
 (defun open-url ()
